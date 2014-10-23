@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9425959D-E1D8-4E8F-90E1-8178E7EE5924</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GAI-App-iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DDE28FBD12357DDA325F38ADA06D40CED2245B72</key>
+		<string>https://github.com/abesary/Global-App-Initiative-App-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GAI-App-iOS/GAI-App-iOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DDE28FBD12357DDA325F38ADA06D40CED2245B72</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/abesary/Global-App-Initiative-App-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DDE28FBD12357DDA325F38ADA06D40CED2245B72</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DDE28FBD12357DDA325F38ADA06D40CED2245B72</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Global-App-Initiative-App-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

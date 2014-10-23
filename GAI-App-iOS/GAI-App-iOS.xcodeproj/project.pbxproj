@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C3145F919F9CBBC00987AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3145F819F9CBBC00987AEB /* AppDelegate.swift */; };
+		5C3145FB19F9CBBC00987AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3145FA19F9CBBC00987AEB /* ViewController.swift */; };
+		5C3145FE19F9CBBC00987AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3145FC19F9CBBC00987AEB /* Main.storyboard */; };
+		5C31460019F9CBBC00987AEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3145FF19F9CBBC00987AEB /* Images.xcassets */; };
+		5C31460319F9CBBC00987AEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C31460119F9CBBC00987AEB /* LaunchScreen.xib */; };
+		5C31460F19F9CBBD00987AEB /* GAI_App_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C31460E19F9CBBD00987AEB /* GAI_App_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C31460919F9CBBC00987AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C3145EB19F9CBBC00987AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C3145F219F9CBBC00987AEB;
+			remoteInfo = "GAI-App-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C3145F319F9CBBC00987AEB /* GAI-App-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAI-App-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3145F719F9CBBC00987AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3145F819F9CBBC00987AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C3145FA19F9CBBC00987AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C3145FD19F9CBBC00987AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C3145FF19F9CBBC00987AEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C31460219F9CBBC00987AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5C31460819F9CBBC00987AEB /* GAI-App-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GAI-App-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C31460D19F9CBBD00987AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C31460E19F9CBBD00987AEB /* GAI_App_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAI_App_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3145F019F9CBBC00987AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C31460519F9CBBC00987AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3145EA19F9CBBC00987AEB = {
+			isa = PBXGroup;
+			children = (
+				5C3145F519F9CBBC00987AEB /* GAI-App-iOS */,
+				5C31460B19F9CBBC00987AEB /* GAI-App-iOSTests */,
+				5C3145F419F9CBBC00987AEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C3145F419F9CBBC00987AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C3145F319F9CBBC00987AEB /* GAI-App-iOS.app */,
+				5C31460819F9CBBC00987AEB /* GAI-App-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C3145F519F9CBBC00987AEB /* GAI-App-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C3145F819F9CBBC00987AEB /* AppDelegate.swift */,
+				5C3145FA19F9CBBC00987AEB /* ViewController.swift */,
+				5C3145FC19F9CBBC00987AEB /* Main.storyboard */,
+				5C3145FF19F9CBBC00987AEB /* Images.xcassets */,
+				5C31460119F9CBBC00987AEB /* LaunchScreen.xib */,
+				5C3145F619F9CBBC00987AEB /* Supporting Files */,
+			);
+			path = "GAI-App-iOS";
+			sourceTree = "<group>";
+		};
+		5C3145F619F9CBBC00987AEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C3145F719F9CBBC00987AEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C31460B19F9CBBC00987AEB /* GAI-App-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C31460E19F9CBBD00987AEB /* GAI_App_iOSTests.swift */,
+				5C31460C19F9CBBD00987AEB /* Supporting Files */,
+			);
+			path = "GAI-App-iOSTests";
+			sourceTree = "<group>";
+		};
+		5C31460C19F9CBBD00987AEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C31460D19F9CBBD00987AEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C3145F219F9CBBC00987AEB /* GAI-App-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C31461219F9CBBD00987AEB /* Build configuration list for PBXNativeTarget "GAI-App-iOS" */;
+			buildPhases = (
+				5C3145EF19F9CBBC00987AEB /* Sources */,
+				5C3145F019F9CBBC00987AEB /* Frameworks */,
+				5C3145F119F9CBBC00987AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GAI-App-iOS";
+			productName = "GAI-App-iOS";
+			productReference = 5C3145F319F9CBBC00987AEB /* GAI-App-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C31460719F9CBBC00987AEB /* GAI-App-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C31461519F9CBBD00987AEB /* Build configuration list for PBXNativeTarget "GAI-App-iOSTests" */;
+			buildPhases = (
+				5C31460419F9CBBC00987AEB /* Sources */,
+				5C31460519F9CBBC00987AEB /* Frameworks */,
+				5C31460619F9CBBC00987AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C31460A19F9CBBC00987AEB /* PBXTargetDependency */,
+			);
+			name = "GAI-App-iOSTests";
+			productName = "GAI-App-iOSTests";
+			productReference = 5C31460819F9CBBC00987AEB /* GAI-App-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C3145EB19F9CBBC00987AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Global App Initiative";
+				TargetAttributes = {
+					5C3145F219F9CBBC00987AEB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5C31460719F9CBBC00987AEB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5C3145F219F9CBBC00987AEB;
+					};
+				};
+			};
+			buildConfigurationList = 5C3145EE19F9CBBC00987AEB /* Build configuration list for PBXProject "GAI-App-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C3145EA19F9CBBC00987AEB;
+			productRefGroup = 5C3145F419F9CBBC00987AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C3145F219F9CBBC00987AEB /* GAI-App-iOS */,
+				5C31460719F9CBBC00987AEB /* GAI-App-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C3145F119F9CBBC00987AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3145FE19F9CBBC00987AEB /* Main.storyboard in Resources */,
+				5C31460319F9CBBC00987AEB /* LaunchScreen.xib in Resources */,
+				5C31460019F9CBBC00987AEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C31460619F9CBBC00987AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3145EF19F9CBBC00987AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3145FB19F9CBBC00987AEB /* ViewController.swift in Sources */,
+				5C3145F919F9CBBC00987AEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C31460419F9CBBC00987AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C31460F19F9CBBD00987AEB /* GAI_App_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C31460A19F9CBBC00987AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C3145F219F9CBBC00987AEB /* GAI-App-iOS */;
+			targetProxy = 5C31460919F9CBBC00987AEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C3145FC19F9CBBC00987AEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3145FD19F9CBBC00987AEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C31460119F9CBBC00987AEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C31460219F9CBBC00987AEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C31461019F9CBBD00987AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C31461119F9CBBD00987AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C31461319F9CBBD00987AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GAI-App-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C31461419F9CBBD00987AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GAI-App-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C31461619F9CBBD00987AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GAI-App-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAI-App-iOS.app/GAI-App-iOS";
+			};
+			name = Debug;
+		};
+		5C31461719F9CBBD00987AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GAI-App-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAI-App-iOS.app/GAI-App-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C3145EE19F9CBBC00987AEB /* Build configuration list for PBXProject "GAI-App-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C31461019F9CBBD00987AEB /* Debug */,
+				5C31461119F9CBBD00987AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C31461219F9CBBD00987AEB /* Build configuration list for PBXNativeTarget "GAI-App-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C31461319F9CBBD00987AEB /* Debug */,
+				5C31461419F9CBBD00987AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C31461519F9CBBD00987AEB /* Build configuration list for PBXNativeTarget "GAI-App-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C31461619F9CBBD00987AEB /* Debug */,
+				5C31461719F9CBBD00987AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C3145EB19F9CBBC00987AEB /* Project object */;
+}
